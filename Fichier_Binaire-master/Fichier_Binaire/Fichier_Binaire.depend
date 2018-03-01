@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1519679577 source:c:\users\arthu\desktop\tp c\tp c premier trimestre\fichier_binaire\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1519941534 source:c:\users\arthur\desktop\fichier_binaire-master\fichier_binaire\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
