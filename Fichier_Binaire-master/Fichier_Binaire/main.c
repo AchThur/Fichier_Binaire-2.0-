@@ -43,9 +43,10 @@ int main()
 
 
 
-    printf("Quelle type d'intearction voulez vous faire ?\n 1 : Ecrire dans le fichier. 2 : Lire le fichier. 3 : Ajouter");
-    scanf ("%d",&Choix);
+
     do {
+        printf("Quelle type d'intearction voulez vous faire ?\n 1 : Ecrire dans le fichier. 2 : Lire le fichier. 3 : Ajouter. 4 : QUITTER");
+        scanf ("%d",&Choix);
     switch (Choix)
     {
     case 1 :
@@ -60,7 +61,7 @@ int main()
         ajouter(&IDcarte);
         break;
     }
-    }while ((Choix < 1) || (Choix > 3));
+    }while (Choix != 4);
 
     return 0;
     /* ftell example : getting size of a file */
